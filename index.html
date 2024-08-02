@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Blackjack</title>
+</head>
+<body>
+    <audio id="bgmusic" src="./Sounds/bg-music.MP3" autoplay loop muted></audio>
+    <div class="main">
+        <div class="container">
+            <h1 class="gamename">BLACKJACK</h1><br>
+            <p id="message-el" class="message-el">Do you want to play?</p><br>
+            <p class="cards-el">Card : </p>
+            <p id="sum-el" class="sum-el">Sum : </p><br>
+            <button onclick="startGame()" class="start-btn">START GAME</button>
+            <button onclick="newCard()" class="newcard-btn">NEW CARD</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
